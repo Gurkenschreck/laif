@@ -1,0 +1,15 @@
+{
+  "name": "laif-engine",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "laif-domain-service": "0.1.0"
+  }
+}
