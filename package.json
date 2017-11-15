@@ -1,0 +1,23 @@
+{
+  "name": "laif",
+  "description": "Just another game tryhard",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gurkenschreck/laif.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gurkenschreck/laif/issues"
+  },
+  "homepage": "https://github.com/Gurkenschreck/laif#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "lerna": "2.5.1"
+  }
+}
