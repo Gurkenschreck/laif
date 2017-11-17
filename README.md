@@ -34,6 +34,9 @@ There are different packages:
 package name | purpose
 --- | ---
 laif-client | The web client of the project. Build with ReactJS and served as a static files.
-laif-engine | The engine of the game. Uses the operations provided by laif-domain-service to access and manipulate the domain object.
-laif-domain-service | Accesses the domain objects and applies manipulations.
-laif-domain | All domain-specific objects are located here.
+
+## Adding a new microservice
+
+`express-generator` can be used to generate the template for a microservice. It is a nodejs
+template generating a sample express webserver.
+When using this, the view engine probably should be removed.
