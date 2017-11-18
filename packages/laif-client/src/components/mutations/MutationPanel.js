@@ -1,13 +1,25 @@
 import React, { Component } from 'react';
+import { Mosaic } from 'react-mosaic-component';
+import ActiveMutations from './ActiveMutations';
+import MutationPreview from './MutationPreview';
+
+const ELEMENT_MAP: { [viewId: string]: JSX.Element } = {
+    a: <ActiveMutations/>,
+    b: <MutationPreview/>,
+};
+
+const initialValue = {
+    direction: 'row',
+    first: 'a',
+    second: 'b'
+};
 
 class MutationPanel extends Component {
     render() {
         return (
-            <div>
-                The MutationPanel, consisting of a selection
-                of mutations and a visual, artful preview
-                to the right of this cache.
-            </div>
+            <Mosaic
+                renderTile={id => ELEMENT_MAP[id]}
+                initialValue={initialValue} />
         );
     }
 }

@@ -1,4 +1,4 @@
-module.exports = function() {
-    this._id = null;
-    this.name = null;
+module.exports = function Species(_id = null, name = null) {
+    this._id = _id;
+    this.name = name;
 }
