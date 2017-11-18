@@ -32,7 +32,7 @@ The project structure is not finally defined. It is a monorepo, handled by the l
 There are different packages:
 
 package name | purpose | tech
---- | ---
+--- | --- | ---
 laif-client | The web client of the project. Build with ReactJS and served as a static files. | ReactJS
 ms-species-stats | Microservice for managing the stats of one species. | ExpressJS, NeDB
 
