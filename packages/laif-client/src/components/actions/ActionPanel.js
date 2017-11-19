@@ -8,8 +8,8 @@ class ActionPanel extends Component {
                 <p>Strategies</p>
                 <ul>
                     <li>Populate</li>
-                    <li>Hunt</li>
-                    <li>Shy behaviour</li>
+                    <li>Aggressive behaviour</li>
+                    <li>Cautious behaviour</li>
                 </ul>
                 <p>Actions</p>
                 <ul>
