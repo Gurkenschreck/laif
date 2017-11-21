@@ -1,0 +1,1 @@
+// build like https://github.com/atulmy/fullstack-graphql/tree/master/api/src/schema
